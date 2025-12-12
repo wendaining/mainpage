@@ -14,6 +14,8 @@
         <span class="tag">Vocaloid Music</span>
         <span class="tag">Anime</span>
         <span class="tag">ein bisschen Deutsch(A2)</span>
+      </div>
+      <div class="info-tags" style="margin-top: 15px;">
         <span class="tag">... And so on / Und so weiter</span>
       </div>
 
@@ -36,27 +38,29 @@
           </a>
         </el-tooltip>
       </div>
-
-      <!-- <div class="about-section">
-        <h2 class="section-title">关于我</h2>
-        <div class="about-content">
-          <p class="about-text">
-            👋 你好！我是一名热爱技术的软件工程专业学生，对编程充满热情。
-          </p>
-          <p class="about-text">
-            💡 平时喜欢探索新技术，折腾各种有趣的项目。从前端到后端，从Web开发到移动应用，
-            我都愿意去尝试和学习。相信代码可以改变世界，技术可以让生活更美好。
-          </p>
-          <p class="about-text">
-            🎵 除了敲代码，我还是一名Vocaloid音乐爱好者。闲暇时间会听听虚拟歌姬的歌曲，
-            感受那些充满创意和情感的旋律。
-          </p>
-          <p class="about-text">
-            🌟 目前正在不断学习中，希望能在软件工程的道路上越走越远，
-            创造出更多有价值的作品。欢迎志同道合的朋友一起交流学习！
-          </p>
-        </div>
-      </div> -->
+        <div class="about-section">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+            <p class="about-text">
+                👋 你好，我是wendaining，你也可以叫我Kiriao/切青
+            </p>
+            <p class="about-text">
+                我是同济大学软件工程专业的2024级学生，热心于学习各种技术，目标是从事web后端开发岗，欢迎交流
+            </p>
+            <p class="about-text">
+                我热衷于自学国外公开课，目前已经学习过了CS61A, CS61B, CS106L等课程，目前计划继续学习CS61C, CS144. CMU15-213
+            </p>
+            <p class="about-text">
+                我是Vocaloid和Jpop音乐的爱好者，喜欢的p主有n-buna、orangestar、Yurry-Canon、*Luna等，喜欢的歌手/乐队有ずっと真夜中でいいのに、ロクデナシ、H△G等
+            </p>
+            <p class="about-text">
+                目前正在不断进修中——
+            </p>
+            <p class="about-text">
+                你可以通过wendaining@foxmail.com，或者加我的QQ 2215589975与我联系
+            </p>
+            </div>
+      </div>
     </div>
   </div>
 </template>
@@ -152,7 +156,7 @@
 .about-section {
   margin-top: 60px;
   text-align: left;
-  max-width: 600px;
+  max-width: 750px;
 }
 
 .section-title {
