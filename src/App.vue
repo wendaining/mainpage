@@ -26,7 +26,7 @@
     </main>
     
     <footer class="footer">
-      <p>Code is Poetry. © 2025 wendaining.</p>
+      <p>© 2025 wendaining.</p>
     </footer>
   </div>
 </template>
