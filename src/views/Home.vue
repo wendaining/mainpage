@@ -7,7 +7,7 @@
       
       <h1 class="name">wendaining</h1>
       
-      <p class="quote">"Non est ad astra mollis e terris via."</p>
+      <p class="quote">「彼方の向こうに、何かが見える。」"</p>
       <div class="info-tags">
         <span class="tag">🚀 2024级软件工程专业</span>
         <span class="tag">💻 Tech Lover</span>
