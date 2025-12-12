@@ -45,10 +45,10 @@
                 👋 你好，我是wendaining，你也可以叫我Kiriao/切青
             </p>
             <p class="about-text">
-                我是同济大学软件工程专业的2024级学生，热心于学习各种技术，目标是从事web后端开发岗，欢迎交流
+                我是同济大学软件工程专业的2024级学生，热衷于学习各种技术，目标是从事web后端开发岗，欢迎交流
             </p>
             <p class="about-text">
-                我热衷于自学国外公开课，目前已经学习过了CS61A, CS61B, CS106L等课程，目前计划继续学习CS61C, CS144. CMU15-213
+                我热衷于自学国外公开课，目前已经学习过了CS61A, CS61B, CS106L等课程，目前计划继续学习CS61C, CS144, CMU15-213
             </p>
             <p class="about-text">
                 我是Vocaloid和Jpop音乐的爱好者，喜欢的p主有n-buna、orangestar、Yurry-Canon、*Luna等，喜欢的歌手/乐队有ずっと真夜中でいいのに、ロクデナシ、H△G等
