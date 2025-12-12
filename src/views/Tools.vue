@@ -1,7 +1,7 @@
 <template>
   <div class="tools-wrapper">
     <div class="header-section">
-      <h2>🛠️ 实验室</h2>
+      <h2>Tools</h2>
       <p>Code locally, deploy globally. 这里存放我自己开发的小工具。</p>
     </div>
     
@@ -36,8 +36,8 @@ import { ArrowRight } from '@element-plus/icons-vue'
 
 const tools = [
   {
-    title: '网易云歌单分析', // 名字长一点也不怕
-    desc: '分析歌单重复度、与不同歌单的交集', // 描述长一点也能放下
+    title: '网易云歌单分析',
+    desc: '分析歌单重复度、与不同歌单的交集',
     icon: '🎵',
     color: '#ff4d4f',
     link: '/tools/music-analysis' 
@@ -68,13 +68,15 @@ const tools = [
 .header-section h2 {
   font-size: 32px;
   font-weight: 700;
-  color: #1f1f1f;
+  color: var(--text-color);
   margin-bottom: 12px;
+  transition: color 0.3s ease;
 }
 
 .header-section p {
-  color: #8c8c8c;
+  color: var(--quote-color);
   font-size: 16px;
+  transition: color 0.3s ease;
 }
 
 .card-link {
@@ -84,14 +86,15 @@ const tools = [
 }
 
 .tool-card {
-  border: 1px solid #f0f0f0;
+  border: 1px solid var(--border-color);
   border-radius: 16px; /* 更大的圆角 */
   transition: all 0.3s ease;
+  background-color: var(--card-bg);
 }
 
 .tool-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 24px rgba(0,0,0,0.06);
+  box-shadow: 0 12px 24px var(--shadow);
   border-color: transparent;
 }
 
@@ -126,22 +129,25 @@ const tools = [
   margin: 0 0 8px 0;
   font-size: 18px;     /* 标题字号加大 */
   font-weight: 700;
-  color: #262626;
+  color: var(--text-color);
   line-height: 1.2;
+  transition: color 0.3s ease;
 }
 
 .tool-desc {
   margin: 0;
   font-size: 14px;
-  color: #8c8c8c;
+  color: var(--quote-color);
   line-height: 1.6;    /* 行高加大，防止文字挤在一起 */
   font-weight: 400;
+  transition: color 0.3s ease;
 }
 
 .arrow {
   margin-left: 20px;
-  color: #d9d9d9;
+  color: var(--border-color);
   font-size: 18px;
+  transition: color 0.3s ease;
 }
 
 /* 手机端适配：虽然是宽卡片，但在极窄屏幕上还是要注意 */

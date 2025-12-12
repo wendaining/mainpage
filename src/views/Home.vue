@@ -7,7 +7,7 @@
       
       <h1 class="name">wendaining</h1>
       
-      <p class="quote">「彼方の向こうに、何かが見える。」"</p>
+      <p class="quote">「彼方の向こうに、何かが見える。」</p>
       <div class="info-tags">
         <span class="tag">Majored in SE</span>
         <span class="tag">Tech Lover</span>
@@ -77,8 +77,8 @@
 }
 
 .avatar {
-  border: 4px solid white;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 4px solid var(--card-bg);
+  box-shadow: 0 10px 30px var(--shadow);
   transition: transform 0.3s ease;
 }
 
@@ -90,14 +90,14 @@
   margin-top: 20px;
   font-size: 2.5rem;
   font-weight: 800;
-  color: #2c3e50;
+  color: var(--text-color);
   letter-spacing: -1px;
 }
 
 .quote {
   font-family: 'Georgia', serif;
   font-style: italic;
-  color: #7f8c8d;
+  color: var(--quote-color);
   margin: 10px 0 30px;
 }
 
@@ -109,19 +109,20 @@
 }
 
 .tag {
-  background: white;
+  background: var(--tag-bg);
   padding: 8px 16px;
   border-radius: 20px;
   font-size: 14px;
   font-weight: 500;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  color: #34495e;
+  box-shadow: 0 2px 8px var(--shadow);
+  color: var(--tag-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .divider {
   width: 50px;
   height: 2px;
-  background: #eee;
+  background: var(--border-color);
   margin: 40px auto;
 }
 
@@ -132,13 +133,13 @@
 }
 
 .social-btn {
-  color: #333;
+  color: var(--text-color);
   transition: all 0.2s;
   padding: 10px;
   border-radius: 50%;
 }
 .social-btn:hover {
-  background-color: #f0f0f0;
+  background-color: var(--shadow);
   transform: translateY(-3px);
   color: #409EFF; /* 悬停变蓝 */
 }
@@ -157,23 +158,25 @@
 .section-title {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #2c3e50;
+  color: var(--text-color);
   margin-bottom: 20px;
   text-align: center;
 }
 
 .about-content {
-  background: white;
+  background: var(--card-bg);
   padding: 30px;
   border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 15px var(--shadow);
+  transition: background-color 0.3s ease;
 }
 
 .about-text {
   line-height: 1.8;
-  color: #555;
+  color: var(--text-color);
   margin-bottom: 16px;
   font-size: 15px;
+  opacity: 0.9;
 }
 
 .about-text:last-child {
