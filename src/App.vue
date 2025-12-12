@@ -2,7 +2,7 @@
   <div class="app-wrapper">
     <header class="navbar">
       <div class="navbar-content">
-        <div class="logo">wendaining</div>
+        <div class="logo">主页</div>
         <el-menu
           :default-active="activeIndex"
           mode="horizontal"
