@@ -9,10 +9,12 @@
       
       <p class="quote">「彼方の向こうに、何かが見える。」"</p>
       <div class="info-tags">
-        <span class="tag">🚀 2024级软件工程专业</span>
-        <span class="tag">💻 Tech Lover</span>
-        <span class="tag">🎵 Vocaloid Music</span>
-        <span class="tag">... And so on</span>
+        <span class="tag">Majored in SE</span>
+        <span class="tag">Tech Lover</span>
+        <span class="tag">Vocaloid Music</span>
+        <span class="tag">Anime</span>
+        <span class="tag">ein bisschen Deutsch(A2)</span>
+        <span class="tag">... And so on / Und so weiter</span>
       </div>
 
       <div class="divider"></div>
@@ -34,6 +36,27 @@
           </a>
         </el-tooltip>
       </div>
+
+      <!-- <div class="about-section">
+        <h2 class="section-title">关于我</h2>
+        <div class="about-content">
+          <p class="about-text">
+            👋 你好！我是一名热爱技术的软件工程专业学生，对编程充满热情。
+          </p>
+          <p class="about-text">
+            💡 平时喜欢探索新技术，折腾各种有趣的项目。从前端到后端，从Web开发到移动应用，
+            我都愿意去尝试和学习。相信代码可以改变世界，技术可以让生活更美好。
+          </p>
+          <p class="about-text">
+            🎵 除了敲代码，我还是一名Vocaloid音乐爱好者。闲暇时间会听听虚拟歌姬的歌曲，
+            感受那些充满创意和情感的旋律。
+          </p>
+          <p class="about-text">
+            🌟 目前正在不断学习中，希望能在软件工程的道路上越走越远，
+            创造出更多有价值的作品。欢迎志同道合的朋友一起交流学习！
+          </p>
+        </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -123,5 +146,37 @@
 @keyframes slideUp {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+.about-section {
+  margin-top: 60px;
+  text-align: left;
+  max-width: 600px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-content {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.about-text {
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 16px;
+  font-size: 15px;
+}
+
+.about-text:last-child {
+  margin-bottom: 0;
 }
 </style>
